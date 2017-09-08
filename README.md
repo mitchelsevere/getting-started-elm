@@ -52,7 +52,7 @@ main =
 
 As simple as that! Now let’s compile our code using this command:
 
-`elm make Main.elm — output app.js`
+`elm make Main.elm --output app.js`
 
 `elm make` is compiling our code into a javascript file called `app.js` and now we can link to an HTML document.
 
