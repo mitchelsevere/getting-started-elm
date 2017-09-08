@@ -82,3 +82,24 @@ At the root of our project directory we’ll create an `index.html` to store the
 We target our div that we created with an id of app in our script tags. We’re telling elm that we will embed our `Main.elm` file in that div that we assigned to a variable called `appContainer`.
 
 That’s it. We created our first Elm app. Fire up your browser and open your html file and you should see “Hello, Elm!”.
+
+
+## Module declaration
+` module Main exposing (..) `
+Every module in Elm starts with a module declaration and should be named the same as the file name.
+e.g. `Main.elm` contains `module Main`
+`exposing (..) ` exposes the functions and types to other modules importing. `(..)` means let’s expose everything
+
+## Imports
+`Import Html exposing (text)`
+In the example above using `import Html `, we’re importing the Html module we want to use explicitly. We’re using the `text` type from the Html module so we import it to our application space using `exposing (text)`
+
+## Main
+```elm
+main =
+     text “Hello, Elm!”
+```
+Elm applications are rendered through the `main` function.  `main` returns an element to be placed on the page. 
+
+
+
