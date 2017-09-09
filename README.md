@@ -1,5 +1,6 @@
 # Getting Started With Elm 
-![elm](images\elm_logo.png)
+![elm lang](file:///Users/student26/wdi/UNIT_04/Elm_Docs/getting-started-elm/images/elm_logo.svg)
+
 
 ## Introduction
 Lorem ipsum dolor sit amet consectetur adipisicing elit. At quam, delectus quod consequatur asperiores doloremque eaque deleniti assumenda eum, cupiditate fugit laboriosam in, quidem nihil ad explicabo consectetur consequuntur earum!
