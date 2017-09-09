@@ -1,4 +1,4 @@
-# Getting Started With Elm
+# Getting Started With Elm ![ELM](images\elm_logo.png)
 
 ## Introduction
 Lorem ipsum dolor sit amet consectetur adipisicing elit. At quam, delectus quod consequatur asperiores doloremque eaque deleniti assumenda eum, cupiditate fugit laboriosam in, quidem nihil ad explicabo consectetur consequuntur earum!
