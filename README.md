@@ -9,8 +9,9 @@ Elm is an easy to use and robust functional language, created with the intention
 ## Operators, Syntax and data types
 ### Basic operators
 Elm uses almost all the standard symbols operators that Javascript and other languages uses
+
 | Operator      | Used for            |
-| ------------- | :------------------:|
+| ------------- |:-------------------:|
 | -             | Subtraction         |
 | +             | Addition            |
 | ++            | Concatenation       |
