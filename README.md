@@ -2,11 +2,14 @@
 ![elm lang](./images/logo.png)
 
 ## Introduction
-Elm is an easy to use and robust functional language, created with the intentions to ease the web development process. 
+Elm is an easy to use and robust functional language, created with the intentions to ease the web development process.
 
 ## Operators, Syntax and data types
 ### Basic operators
 Elm uses almost all the standard symbols operators that Javascript and other languages use.
+Install elm-REPL to interact with El expressions and syntax.
+
+[For Mac ](http://install.elm-lang.org/Elm-Platform-0.18.pkg )
 
 | Operator      | Used for            |
 | ------------- |:-------------------:|
@@ -22,6 +25,12 @@ Elm uses almost all the standard symbols operators that Javascript and other lan
 | ^             | Exponentiation      |
 | =             | Assign value        |
 | ==            | Comparison          |
+
+
+
+
+
+
 
 if statements
 
