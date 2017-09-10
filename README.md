@@ -17,18 +17,12 @@ Elm uses almost all the standard symbols operators that Javascript and other lan
 | ++            | Concatenation       |
 | /             | Decimal division    |
 | //            | Integer division    |
-|               | (discard decimals)  | 
+|                 (discard decimals)  | 
 | %             | Module              |
 | rem           | Division remainder  |
 | ^             | Exponentiation      |
 | =             | Assign value        |
 | ==            | Comparison          |
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 if statements
 
