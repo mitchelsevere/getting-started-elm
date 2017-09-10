@@ -1,4 +1,4 @@
-# Getting Started With Elm 
+# Getting Started With Elm
 ![elm lang](./images/logo.png)
 
 ## Introduction
@@ -21,7 +21,7 @@ Install elm-REPL to interact with El expressions and syntax.
 | ++            | Concatenation       |
 | /             | Decimal division    |
 | //            | Integer division    |
-|               | (discard decimals)  | 
+|               | (discard decimals)  |
 | %             | Module              |
 | rem           | Division remainder  |
 | ^             | Exponentiation      |
@@ -38,13 +38,13 @@ Install elm-REPL to interact with El expressions and syntax.
 if statements
 
 ### Functions
-Because Elm is a FP it relies mostly on functions, and that is why functions manipulation is 
+Because Elm is a FP it relies mostly on functions, and that is why functions manipulation is
   * Functions can be named (regular functions)
   * Functions can be use without giving any name( anonymous functions )
   * They can be passed as arguments.
   * They can return another function as result.
   * They can be stored in list and variables
-  * Can be easily assing 
+  * Can be easily assing
 
 
 Loops
@@ -60,7 +60,7 @@ Records
 
 ## What makes Elm different ?
 
-One thing that is worth to highlight about Elm is its amazing performance. Elm, as most front end frameworks, has its own virtual DOM implementation, but compare to others is one of the fastest, this is due to the fact that all values are immutable , which has been proved to make JavaScript code faster. 
+One thing that is worth to highlight about Elm is its amazing performance. Elm, as most front end frameworks, has its own virtual DOM implementation, but compare to others is one of the fastest, this is due to the fact that all values are immutable , which has been proved to make JavaScript code faster.
 
 
 Another amazing feature about Elm is that it has no runtime exceptions, which means that the most commons errors don't make it to the user. That is because Elm checks all problems during compilation , and if its find any error, it would give you hints about the possible reason why your getting the error and the possible solutions for the same.
@@ -69,6 +69,13 @@ NOT MORE "undefined is not a function"
 ## Architecture
 Elm architecture is based on the Model, View and Controller(MVC) design pattern, the difference is that instead of a controller it uses Update, similar to React.
 The Model is the data the application will operate on and its behavior, this is call State"in other languages, Update defines what changes to make to the state given an action or an input, and in return it creates a new version of the state(remember that all values are immutable) with the resulting changes, the View defines what to render depending on the current state.
+
+In the following calorie counter application, we have our code split into three sections.
+
+First the `model`:
+![elm lang](./images/model.png)
+
+We are setting an [alias](https://guide.elm-lang.org/types/type_aliases.html) for our model and setting each part of our calorie app to its type. Next we set our initModel to the type alias we created and set out initModel to the beginning values of our calorie app.
 
 
 ## Building Our First Elm App: (Hello, Elm!)
@@ -92,7 +99,7 @@ Now let’s cd into the folder and run:
 
 `elm package install elm-lang/html`
 
-You should recieve a prompt, saying:
+You should receive a prompt, saying:
 ```bash
 Some new packages are needed. Here is the upgrade plan.
 
@@ -114,8 +121,8 @@ module Main exposing (..)
 import Html exposing (text)
 
 
-main = 
-    text “Hello, Elm!” 
+main =
+    text “Hello, Elm!”
 ```
 
 As simple as that! Now let’s compile our code using this command:
@@ -167,7 +174,4 @@ In the example above using `import Html `, we’re importing the Html module we 
 main =
      text “Hello, Elm!”
 ```
-Elm applications are rendered through the `main` function.  `main` returns an element to be placed on the page. 
-
-
-
+Elm applications are rendered through the `main` function.  `main` returns an element to be placed on the page.
