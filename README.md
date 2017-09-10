@@ -2,8 +2,50 @@
 ![elm lang](./images/logo.png)
 
 ## Introduction
-Elm is an easy to use and robust functional language that compiles to Javascript. 
 
+Elm is an easy to use and robust functional language, created with the intentions of to ease the web development process. 
+
+
+
+## Operators, Syntax and data types
+### Basic operators
+Elm uses almost all the standard symbols operators that Javascript and other languages uses
+
+| Operator      | Used for            |
+| ------------- |:-------------------:|
+| -             | Subtraction         |
+| +             | Addition            |
+| ++            | Concatenation       |
+| /             | Decimal division    |
+| //            | Integer division    |
+|                 (discard decimals)  | 
+| %             | Module              |
+| rem           | Division remainder  |
+| ^             | Exponentiation      |
+| =             | Assign value        |
+| ==            | Comparison          |
+
+if statements
+
+### Functions
+Because Elm is a FP it relies mostly on functions, and that is why functions manipulation is 
+  * Functions can be named (regular functions)
+  * Functions can be use without giving any name( anonymous functions )
+  * They can be passed as arguments.
+  * They can return another function as result.
+  * They can be stored in list and variables
+  * Can be easily assing 
+
+
+Loops
+
+Arrays
+
+
+List
+
+
+Records
 
 
 ## What makes Elm different ?
@@ -13,6 +55,11 @@ One thing that is worth to highlight about Elm is its amazing performance. Elm, 
 
 Another amazing feature about Elm is that it has no runtime exceptions, which means that the most commons errors don't make it to the user. That is because Elm checks all problems during compilation , and if its find any error, it would give you hints about the possible reason why your getting the error and the possible solutions for the same.
 NOT MORE "undefined is not a function"
+
+## Architecture
+Elm architecture is based on the Model, View and Controller(MVC) design pattern, the difference is that instead of a controller it uses Update, similar to React.
+The Model is the data the application will operate on and its behavior, this is call State"in other languages, Update defines what changes to make to the state given an action or an input, and in return it creates a new version of the state(remember that all values are immutable) with the resulting changes, the View defines what to render depending on the current state.
+
 
 ## Building Our First Elm App: (Hello, Elm!)
 ### Creating an elm app locally
