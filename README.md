@@ -10,6 +10,8 @@ Elm uses almost all the standard symbols operators that Javascript and other lan
 Install elm-REPL to interact with El expressions and syntax.
 
 [For Mac ](http://install.elm-lang.org/Elm-Platform-0.18.pkg )
+[Windows ](http://install.elm-lang.org/Elm-Platform-0.18.exe)
+[Anywhere](https://www.npmjs.com/package/elm)
 
 | Operator      | Used for            |
 | ------------- |:-------------------:|
@@ -26,6 +28,7 @@ Install elm-REPL to interact with El expressions and syntax.
 | =             | Assign value        |
 | ==            | Comparison          |
 
+![examples](./images/operators.png)
 
 
 
