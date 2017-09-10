@@ -2,7 +2,21 @@
 ![elm lang](./images/logo.png)
 
 ## Introduction
-Lorem ipsum dolor sit amet consectetur adipisicing elit. At quam, delectus quod consequatur asperiores doloremque eaque deleniti assumenda eum, cupiditate fugit laboriosam in, quidem nihil ad explicabo consectetur consequuntur earum!
+Elm is an easy to use and robust functional language that compiles to Javascript. 
+
+
+
+## What makes Elm different ?
+
+One thing that is worth to highlight about Elm is its amazing performance. Elm, as most front end frameworks, has its own virtual DOM implementation, but compare to others is one of the fastest, this is due to the fact that all values are immutable , which has been proved to make JavaScript code faster. 
+
+
+Another amazing feature about Elm is that it has no runtime exceptions, which means that the most commons errors don't make it to the user. That is because Elm checks all problems during compilation , and if its find any error, it would give you hints about the possible reason why your getting the error and the possible solutions for the same.
+NOT MORE "undefined is not a function"
+
+
+## Architecture
+Elm a
 
 ## Building Our First Elm App: (Hello, Elm!)
 ### Creating an elm app locally
