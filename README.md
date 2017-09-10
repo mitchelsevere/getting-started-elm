@@ -2,13 +2,13 @@
 ![elm lang](./images/logo.png)
 
 ## Introduction
-Elm is an easy to use and robust functional language, created with the intentions of to ease the web development process. 
+Elm is an easy to use and robust functional language, created with the intentions to ease the web development process. 
 
 
 
 ## Operators, Syntax and data types
 ### Basic operators
-Elm uses almost all the standard symbols operators that Javascript and other languages uses
+Elm uses almost all the standard symbols operators that Javascript and other languages use.
 
 | Operator      | Used for            |
 | ------------- |:-------------------:|
