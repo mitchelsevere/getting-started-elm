@@ -2,9 +2,49 @@
 ![elm lang](./images/logo.png)
 
 ## Introduction
-Elm is an easy to use and robust functional language that compiles to Javascript. 
+Elm is an easy to use and robust functional language, created with the intentions of to ease the web development process. 
 
-## The Syntax
+
+
+## Operators, Syntax and data types
+### Basic operators
+Elm uses almost all the standard symbols operators that Javascript and other languages uses
+| Operator      | Used for            | Example     
+| ------------- | --------------------|-------------------
+| -             | Subtraction         |![elm lang](./images/logo.png)
+| +             | Addition            |![elm lang](./images/logo.png)
+| ++            | Concatenation       |
+| /             | Decimal division    |
+| //            | Integer division    |
+|               | (discard decimals)  | 
+| %             | Module              |
+| rem           | Division remainder  |
+| ^             | Exponentiation      |
+| =             | Assign value        |
+| ==            | Comparison          |
+
+
+if statements
+
+### Functions
+Because Elm is a FP it relies mostly on functions, and that is why functions manipulation is 
+  * Functions can be named (regular functions)
+  * Functions can be use without giving any name( anonymous functions )
+  * They can be passed as arguments.
+  * They can return another function as result.
+  * They can be stored in list and variables
+  * Can be easily assing 
+
+
+Loops
+
+Arrays
+
+
+List
+
+
+Records
 
 ## What makes Elm different ?
 
