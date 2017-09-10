@@ -13,11 +13,12 @@ Elm uses almost all the standard symbols operators that Javascript and other lan
 | Operator      | Used for            |
 | ------------- |:-------------------:|
 | -             | Subtraction         |
+| --            | Comment             |
 | +             | Addition            |
 | ++            | Concatenation       |
 | /             | Decimal division    |
 | //            | Integer division    |
-|                 (discard decimals)  | 
+|               | (discard decimals)  | 
 | %             | Module              |
 | rem           | Division remainder  |
 | ^             | Exponentiation      |
