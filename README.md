@@ -4,7 +4,7 @@
 ## Introduction
 Elm is an easy to use and robust functional language that compiles to Javascript. 
 
-
+## The Syntax
 
 ## What makes Elm different ?
 
@@ -16,7 +16,9 @@ NOT MORE "undefined is not a function"
 
 
 ## Architecture
-Elm a
+Elm architecture is based on the Model, View and Controller(MVC) design pattern, the difference is that instead of a controller it uses Update, similar to React.
+The Model is the data the application will operate on and its behavior, this is call State"in other languages, Update defines what changes to make to the state given an action or an input, and in return it creates a new version of the state(remember that all values are immutable) with the resulting changes, the View defines what to render depending on the current state.
+
 
 ## Building Our First Elm App: (Hello, Elm!)
 ### Creating an elm app locally
