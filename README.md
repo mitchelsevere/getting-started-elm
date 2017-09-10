@@ -28,7 +28,7 @@ Install elm-REPL to interact with El expressions and syntax.
 | =             | Assign value        |
 | ==            | Comparison          |
 
-![elm lang](./images/oparators.png)
+![elm lang](./images/operators.png)
 
 
 
