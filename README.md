@@ -44,20 +44,13 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
   * They can be passed as arguments.
   * They can return another function as result.
   * They can be stored in list and variables
-<<<<<<< HEAD
-  * Can be easily assing
-=======
   * Can be easily assign 
->>>>>>> 5033e047fa75bb2eb040400dbb1d3d7859a8173f
-
 
 Loops
 
 Arrays
 
-
 List
-
 
 Records
 
@@ -109,6 +102,7 @@ button [ type_ "button"
 ```
 
 And here is the result in the browser:
+
 ![elm lang](./images/view-dom.gif)
 
 As you build more Elm apps, this will become the structure you will be accustom to seeing as you set up your `model`, `update`, and `view` architecture. Now let's move on to building our first, simpler Elm app.
