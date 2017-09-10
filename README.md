@@ -80,12 +80,34 @@ We are setting an [alias](https://guide.elm-lang.org/types/type_aliases.html) fo
 Next is the `update`:
 ![elm lang](./images/update.png)
 
-For the update it takes a Msg, sends it to the model, the updates the model based on the msg sent. We initialize the Msg with three functions events:
+For the update it takes a Msg, sends it to the model, the updates the model (or changes the state) based on the msg sent. We initialize the Msg with three functions events:
 `AddCalorie`, `Input` which is a String, and `Clear`.
 
-To update the Msg we must update the `msg model` and similar to switch statements in other languages, we give different cases for the three msg types we declared above and what to do when they are called. 
+To update the Msg we must update the `msg model` and similar to switch statements in other languages, we give different cases for the three msg types we declared above and what to do when they are called.
 
+Lastly the `view`:
+![elm lang](./images/view.png)
 
+The view takes the `Html msg` in order to speak to the browser.
+Importing the `Html.Events` and `Html.Attributes` allows you to use standard HTML tags, attributes and event listeners.
+
+For example a HTML node in Elm take a HTML element with two [ ] [ ] brackets. The first bracket houses the attributes and events:
+```elm
+button [ type_ "button"
+      , onClick Input]
+```
+
+While the second bracket holds the children nodes:
+```elm
+button [ type_ "button"
+      , onClick Input]
+       [ text "Add"]
+```
+
+And here is the result in the browser:
+![elm lang](./images/view-dom.gif)
+
+As you build more Elm apps, this will become the structure you will be accustom to seeing as you set up your `model`, `update`, and `view` architecture. Now let's move on to building our first, simpler Elm app.
 
 ## Building Our First Elm App: (Hello, Elm!)
 ### Creating an elm app locally
