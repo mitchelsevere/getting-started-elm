@@ -77,6 +77,15 @@ First the `model`:
 
 We are setting an [alias](https://guide.elm-lang.org/types/type_aliases.html) for our model and setting each part of our calorie app to its type. Next we set our initModel to the type alias we created and set out initModel to the beginning values of our calorie app.
 
+Next is the `update`:
+![elm lang](./images/update.png)
+
+For the update it takes a Msg, sends it to the model, the updates the model based on the msg sent. We initialize the Msg with three functions events:
+`AddCalorie`, `Input` which is a String, and `Clear`.
+
+To update the Msg we must update the `msg model` and similar to switch statements in other languages, we give different cases for the three msg types we declared above and what to do when they are called. 
+
+
 
 ## Building Our First Elm App: (Hello, Elm!)
 ### Creating an elm app locally
