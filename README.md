@@ -11,8 +11,8 @@ Elm is an easy to use and robust functional language, created with the intention
 Elm uses almost all the standard symbols operators that Javascript and other languages uses
 | Operator      | Used for            | Example     
 | ------------- | --------------------|-------------------
-| -             | Subtraction         |![elm lang](./images/logo.png)
-| +             | Addition            |![elm lang](./images/logo.png)
+| -             | Subtraction         |
+| +             | Addition            |
 | ++            | Concatenation       |
 | /             | Decimal division    |
 | //            | Integer division    |
