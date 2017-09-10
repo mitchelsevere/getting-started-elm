@@ -9,9 +9,9 @@ Elm is an easy to use and robust functional language, created with the intention
 Elm uses almost all the standard symbols operators that Javascript and other languages use.
 Install elm-REPL to interact with El expressions and syntax.
 
-[For Mac ](http://install.elm-lang.org/Elm-Platform-0.18.pkg )
-[Windows ](http://install.elm-lang.org/Elm-Platform-0.18.exe)
-[Anywhere](https://www.npmjs.com/package/elm)
+*[For Mac ](http://install.elm-lang.org/Elm-Platform-0.18.pkg )
+*[Windows ](http://install.elm-lang.org/Elm-Platform-0.18.exe)
+*[Anywhere](https://www.npmjs.com/package/elm)
 
 | Operator      | Used for            |
 | ------------- |:-------------------:|
@@ -28,14 +28,14 @@ Install elm-REPL to interact with El expressions and syntax.
 | =             | Assign value        |
 | ==            | Comparison          |
 
-![elm lang](./images/operators.png)
+![e.g](./images/operators.png)
 
 
 
 
 
 
-if statements
+Conditions(If, else if)
 
 ### Functions
 Because Elm is a FP it relies mostly on functions, and that is why functions manipulation is
@@ -44,7 +44,11 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
   * They can be passed as arguments.
   * They can return another function as result.
   * They can be stored in list and variables
+<<<<<<< HEAD
   * Can be easily assing
+=======
+  * Can be easily assign 
+>>>>>>> 5033e047fa75bb2eb040400dbb1d3d7859a8173f
 
 
 Loops
@@ -205,4 +209,14 @@ In the example above using `import Html `, we’re importing the Html module we 
 main =
      text “Hello, Elm!”
 ```
+<<<<<<< HEAD
 Elm applications are rendered through the `main` function.  `main` returns an element to be placed on the page.
+=======
+Elm applications are rendered through the `main` function.  `main` returns an element to be placed on the page. 
+
+
+Simple games built with Elm. I good idea for starters 
+[Chess](https://elm-chess.com/)
+[Concentration](https://robertbasden.github.io/elm-concentration/)
+[Tic Tac Toe](https://iamim.io/fcc-tictactoe-in-elm/)
+>>>>>>> 5033e047fa75bb2eb040400dbb1d3d7859a8173f
