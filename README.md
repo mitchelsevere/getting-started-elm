@@ -66,12 +66,12 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
   funtionName parameter1 parameter2 parameter3 ... = 
     statement 
 
-  ![e.g] (./images/function.png)
+  ![e.g](./images/function.png)
 
 ### Loops
  Loops don't exist in Elm, instead of "for" or "while" loops, the best practice is to use recursion. An alternative is to use some packages the expose those loop. e.g. Elm Loop, which use the same syntax as Js.
 
-![e.g] (./images/loop.png) 
+![e.g](./images/loop.png) 
 
 ### List(Arrays)
 ##### Note: Elements should be the same type
@@ -79,16 +79,12 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
 The traditional way x = [ele1, ele2, ele3, ele4] 
 Double colon x =  ele1 :: ele2 :: ele3 :: ele4 :: [] 
 
-  ![e.g] (./images/lists.png)
-
-
-
+  ![e.g](./images/lists.png)
 
 ### Records
 ##### Records are similar to JS objects, but they work differently. Records in Elm are immutable, when you change a value in a record element, in reality you are creating a new copy of the record with with those changes.
-  ![e.g] (./images/records.png)
-
-
+  
+  ![e.g](./images/records.png)
 
 ## What makes Elm different ?
 
