@@ -35,15 +35,16 @@ Install elm-REPL to interact with El expressions and syntax.
 ### Conditions(If, else if)
 
   Syntax 
-  ```if condition then
+  ```Elm
+  if condition then
         statement1
   else if condition then
         statement2
   else if condition then
         statement3
   else
-  ```  statement4
-
+      statement4
+  ```  
 ![e.g](./images/conditions.png)
 
 
