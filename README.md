@@ -2,16 +2,17 @@
 ![elm lang](./images/logo.png)
 
 ## Introduction
-Elm is an easy to use and robust functional language, created with the intentions to ease the web development process.
+Elm is an easy to use and robust functional language, created with the intentions to ease the web development process. It has a unique , but easy to interpret syntax. 
 
-## Operators, Syntax and data types
-### Basic operators
-Elm uses almost all the standard symbols operators that Javascript and other languages use.
-
-Install elm-REPL to interact with El expressions and syntax.
+Install Elm-REPL to interact with Elm expressions and syntax.
 * [For Mac ](http://install.elm-lang.org/Elm-Platform-0.18.pkg )
 * [Windows ](http://install.elm-lang.org/Elm-Platform-0.18.exe)
 * [Anywhere](https://www.npmjs.com/package/elm)
+
+## Operators, Syntax and data types
+### Basic operators
+Elm uses almost the same syntax for all the standard symbols operators that Javascript and other languages use.
+
 
 | Operator      | Used for            |
 | ------------- |:-------------------:|
@@ -29,8 +30,6 @@ Install elm-REPL to interact with El expressions and syntax.
 | ==            | Comparison          |
 
 ![e.g](./images/operators.png)
-
-
 
 ### Conditions(If, else if)
 
@@ -57,26 +56,32 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
   * They can be stored in list and variables
   * Can be easily assign 
 
-  Syntax
-  Anonymous functions
-  \ parameter1 parameter2 parameter3 ... -> 
+####  Syntax
+  Anonymous functions(Used mostly as a callback function)
+  \ parameter1 parameter2 parameter3 ... ->  
+    statement
 
-  ![e.g](./images/an_funct.png)
+  ![e.g](./images/an_function.png)
 
 
 
   funtionName parameter1 parameter2 parameter3 ... = 
-    statement 1
-    statement 2
-    statement 3
-    statement 4
-
-
+    statement 
+  ![e.g] (./images/function.png)
 
 ### Loops
 
 
-### Arrays
+### List(Arrays)
+##### Note: Elements should be the same type
+##### There are tow different ways to define Lists 
+The traditional way x = [ele1, ele2, ele3, ele4] 
+Double colon x =  ele1 :: ele2 :: ele3 :: ele4 :: [] 
+
+
+
+  ![e.g] (./images/lists.png)
+
 
 
 ### List
