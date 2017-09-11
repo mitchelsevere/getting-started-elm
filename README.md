@@ -80,8 +80,7 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
 The traditional way x = [ele1, ele2, ele3, ele4] 
 Double colon x =  ele1 :: ele2 :: ele3 :: ele4 :: [] 
 
-![e.g](./images/loops.png) 
-![e.g](./images/lists.png) 
+![e.g](./images/array_lists.png) 
 
 ### Records
 ##### Records are similar to JS objects, but they work differently. Records in Elm are immutable, when you change a value in a record element, in reality you are creating a new copy of the record with with those changes.
