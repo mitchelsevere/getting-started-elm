@@ -28,6 +28,7 @@ Elm uses almost the same syntax for all the standard symbols operators that Java
 | ^             | Exponentiation      |
 | =             | Assign value        |
 | ==            | Comparison          |
+| --            | Comment             |
 
 ![e.g](./images/operators.png)
 
@@ -79,7 +80,7 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
 The traditional way x = [ele1, ele2, ele3, ele4] 
 Double colon x =  ele1 :: ele2 :: ele3 :: ele4 :: [] .
 
-  ![e.g](./images/lists.png)
+![e.g](./images/lists.png) 
 
 ### Records
 ##### Records are similar to JS objects, but they work differently. Records in Elm are immutable, when you change a value in a record element, in reality you are creating a new copy of the record with with those changes.
@@ -92,11 +93,11 @@ One thing that is worth to highlight about Elm is its amazing performance. Elm, 
 
 
 Another amazing feature about Elm is that it has no runtime exceptions, which means that the most commons errors don't make it to the user. That is because Elm checks all problems during compilation , and if its find any error, it would give you hints about the possible reason why your getting the error and the possible solutions for the same.
-NOT MORE "undefined is not a function"
+NO MORE "undefined is not a function"
 
 ## Architecture
 Elm architecture is based on the Model, View and Controller(MVC) design pattern, the difference is that instead of a controller it uses Update, similar to React.
-The Model is the data the application will operate on and its behavior, this is call State"in other languages, Update defines what changes to make to the state given an action or an input, and in return it creates a new version of the state(remember that all values are immutable) with the resulting changes, the View defines what to render depending on the current state.
+The Model is the data the application will operate on and its behavior, this is call "State" in other languages, Update defines what changes to make to the Model(state) given an action or an input, and in return it creates a new version of the state(remember that all values are immutable) with the resulting changes, the View defines what to render depending on the current state.
 
 In the following calorie counter application, we have our code split into three sections.
 
