@@ -7,11 +7,11 @@ Elm is an easy to use and robust functional language, created with the intention
 ## Operators, Syntax and data types
 ### Basic operators
 Elm uses almost all the standard symbols operators that Javascript and other languages use.
-Install elm-REPL to interact with El expressions and syntax.
 
-*[For Mac ](http://install.elm-lang.org/Elm-Platform-0.18.pkg )
-*[Windows ](http://install.elm-lang.org/Elm-Platform-0.18.exe)
-*[Anywhere](https://www.npmjs.com/package/elm)
+Install elm-REPL to interact with El expressions and syntax.
+* [For Mac ](http://install.elm-lang.org/Elm-Platform-0.18.pkg )
+* [Windows ](http://install.elm-lang.org/Elm-Platform-0.18.exe)
+* [Anywhere](https://www.npmjs.com/package/elm)
 
 | Operator      | Used for            |
 | ------------- |:-------------------:|
@@ -32,13 +32,23 @@ Install elm-REPL to interact with El expressions and syntax.
 
 
 
+### Conditions(If, else if)
 
+  Syntax 
+  ```if condition then
+        statement1
+  else if condition then
+        statement2
+  else if condition then
+        statement3
+  else
+  ```  statement4
 
+![e.g](./images/conditions.png)
 
-Conditions(If, else if)
 
 ### Functions
-Because Elm is a FP it relies mostly on functions, and that is why functions manipulation is 
+Because Elm is a FP it relies mostly on functions, and that is why functions manipulation is flexible 
   * Functions can be named (regular functions)
   * Functions can be use without giving any name( anonymous functions )
   * They can be passed as arguments.
@@ -46,16 +56,32 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
   * They can be stored in list and variables
   * Can be easily assign 
 
+  Syntax
+  Anonymous functions
+  \ parameter1 parameter2 parameter3 ... -> 
 
-Loops
-
-Arrays
-
-
-List
+  ![e.g](./images/an_funct.png)
 
 
-Records
+
+  funtionName parameter1 parameter2 parameter3 ... = 
+    statement 1
+    statement 2
+    statement 3
+    statement 4
+
+
+
+### Loops
+
+
+### Arrays
+
+
+### List
+
+
+### Records
 
 
 ## What makes Elm different ?
@@ -171,6 +197,6 @@ Elm applications are rendered through the `main` function.  `main` returns an el
 
 
 Simple games built with Elm. I good idea for starters 
-[Chess](https://elm-chess.com/)
-[Concentration](https://robertbasden.github.io/elm-concentration/)
-[Tic Tac Toe](https://iamim.io/fcc-tictactoe-in-elm/)
+* [Chess](https://elm-chess.com/)
+* [Concentration](https://robertbasden.github.io/elm-concentration/)
+* [Tic Tac Toe](https://iamim.io/fcc-tictactoe-in-elm/)
