@@ -1,4 +1,4 @@
-# Getting Started With Elm 
+# Getting Started With Elm
 ![elm lang](./images/logo.png)
 
 ## Introduction
@@ -21,7 +21,7 @@ Install elm-REPL to interact with El expressions and syntax.
 | ++            | Concatenation       |
 | /             | Decimal division    |
 | //            | Integer division    |
-|               | (discard decimals)  | 
+|               | (discard decimals)  |
 | %             | Module              |
 | rem           | Division remainder  |
 | ^             | Exponentiation      |
@@ -83,10 +83,9 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
 
 ### Records
 
-
 ## What makes Elm different ?
 
-One thing that is worth to highlight about Elm is its amazing performance. Elm, as most front end frameworks, has its own virtual DOM implementation, but compare to others is one of the fastest, this is due to the fact that all values are immutable , which has been proved to make JavaScript code faster. 
+One thing that is worth to highlight about Elm is its amazing performance. Elm, as most front end frameworks, has its own virtual DOM implementation, but compare to others is one of the fastest, this is due to the fact that all values are immutable , which has been proved to make JavaScript code faster.
 
 
 Another amazing feature about Elm is that it has no runtime exceptions, which means that the most commons errors don't make it to the user. That is because Elm checks all problems during compilation , and if its find any error, it would give you hints about the possible reason why your getting the error and the possible solutions for the same.
@@ -96,6 +95,45 @@ NOT MORE "undefined is not a function"
 Elm architecture is based on the Model, View and Controller(MVC) design pattern, the difference is that instead of a controller it uses Update, similar to React.
 The Model is the data the application will operate on and its behavior, this is call State"in other languages, Update defines what changes to make to the state given an action or an input, and in return it creates a new version of the state(remember that all values are immutable) with the resulting changes, the View defines what to render depending on the current state.
 
+In the following calorie counter application, we have our code split into three sections.
+
+First the `model`:
+![elm lang](./images/model.png)
+
+We are setting an [alias](https://guide.elm-lang.org/types/type_aliases.html) for our model and setting each part of our calorie app to its type. Next we set our initModel to the type alias we created and set out initModel to the beginning values of our calorie app.
+
+Next is the `update`:
+![elm lang](./images/update.png)
+
+For the update it takes a Msg, sends it to the model, the updates the model (or changes the state) based on the msg sent. We initialize the Msg with three functions events:
+`AddCalorie`, `Input` which is a String, and `Clear`.
+
+To update the Msg we must update the `msg model` and similar to switch statements in other languages, we give different cases for the three msg types we declared above and what to do when they are called.
+
+Lastly the `view`:
+![elm lang](./images/view.png)
+
+The view takes the `Html msg` in order to speak to the browser.
+Importing the `Html.Events` and `Html.Attributes` allows you to use standard HTML tags, attributes and event listeners.
+
+For example a HTML node in Elm take a HTML element with two [ ] [ ] brackets. The first bracket houses the attributes and events:
+```elm
+button [ type_ "button"
+      , onClick Input]
+```
+
+While the second bracket holds the children nodes:
+```elm
+button [ type_ "button"
+      , onClick Input]
+       [ text "Add"]
+```
+
+And here is the result in the browser:
+
+![elm lang](./images/view-dom.gif)
+
+As you build more Elm apps, this will become the structure you will be accustom to seeing as you set up your `model`, `update`, and `view` architecture. Now let's move on to building our first, simpler Elm app.
 
 ## Building Our First Elm App: (Hello, Elm!)
 ### Creating an elm app locally
@@ -118,7 +156,7 @@ Now let’s cd into the folder and run:
 
 `elm package install elm-lang/html`
 
-You should recieve a prompt, saying:
+You should receive a prompt, saying:
 ```bash
 Some new packages are needed. Here is the upgrade plan.
 
@@ -140,8 +178,8 @@ module Main exposing (..)
 import Html exposing (text)
 
 
-main = 
-    text “Hello, Elm!” 
+main =
+    text “Hello, Elm!”
 ```
 
 As simple as that! Now let’s compile our code using this command:
@@ -194,7 +232,6 @@ main =
      text “Hello, Elm!”
 ```
 Elm applications are rendered through the `main` function.  `main` returns an element to be placed on the page. 
-
 
 Simple games built with Elm. I good idea for starters 
 * [Chess](https://elm-chess.com/)
