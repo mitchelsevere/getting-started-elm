@@ -71,13 +71,13 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
 ### Loops
  Loops don't exist in Elm, instead of "for" or "while" loops, the best practice is to use recursion. An alternative is to use some packages the expose those loop. e.g. Elm Loop, which use the same syntax as Js.
 
-![e.g](./images/loop.png) 
+![e.g](./images/loops.png) 
 
 ### List(Arrays)
 ##### Note: Elements should be the same type
 ##### There are tow different ways to define Lists 
 The traditional way x = [ele1, ele2, ele3, ele4] 
-Double colon x =  ele1 :: ele2 :: ele3 :: ele4 :: [] 
+Double colon x =  ele1 :: ele2 :: ele3 :: ele4 :: [] .
 
   ![e.g](./images/lists.png)
 
