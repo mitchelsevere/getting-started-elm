@@ -78,8 +78,9 @@ Because Elm is a FP it relies mostly on functions, and that is why functions man
 ##### Note: Elements should be the same type
 ##### There are tow different ways to define Lists 
 The traditional way x = [ele1, ele2, ele3, ele4] 
-Double colon x =  ele1 :: ele2 :: ele3 :: ele4 :: [] .
+Double colon x =  ele1 :: ele2 :: ele3 :: ele4 :: [] 
 
+![e.g](./images/loops.png) 
 ![e.g](./images/lists.png) 
 
 ### Records
